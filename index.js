@@ -9,18 +9,14 @@ const port = 3001
 
 let url = 'https://api.openweathermap.org/data/2.5/'
 let cityParameter = 'weather?q='
-let openweathermapAPI = '&appid=b2909102f038991abd83a95de4ff11d6'
+let openweathermapAPI = '&appid=4cfc628c01194e9fe1d92654ba42fac6'
 
 
 // app.get('/', (req, res) => {
 //   let cityName = req.query.city;
-
 //   axios.get(url + cityParameter + cityName + openweathermapAPI).then((response) => {
-
 //         res.send(response.config)
-
 //   })
-
 // })
 
 app.get('/city', (req, res) => {
